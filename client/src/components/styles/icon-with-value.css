@@ -1,0 +1,25 @@
+.icon-with-value {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
+    font-family: 'Comfortaa', sans-serif;
+    width: 50px;
+    height: 25px;
+    border-radius:5px;
+    font-size: 11pt;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    -webkit-filter: drop-shadow(1px 1px 2px #10123c);
+    filter: drop-shadow(1px 1px 2px #10123c);
+}
+
+.icon-with-value i {
+    font-size: 12pt;
+}
+
+.value, .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+.under-maintenance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.under-maintenance > .message-board {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 188, 203, 0.7);
+    border-radius: 15px;
+}
+
+.under-maintenance > .message-board i {
+    font-size: 40px;
+    color: white;
+    filter: drop-shadow(1pt 1pt 2pt #10123c);
+}
+
+.under-maintenance > .message-board h2 {
+    font-size: 20pt;
+}
+
+@media only screen and (max-width: 800px) {
+    .under-maintenance > .message-board {
+        height: 150px;
+        width: 350px;
+    }
+
+    .under-maintenance > .message-board i {
+        font-size: 35px;
+    }
+
+    .under-maintenance > .message-board h2 {
+        font-size: 15pt;
+    }
+}

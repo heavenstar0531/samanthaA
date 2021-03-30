@@ -1,0 +1,50 @@
+.hero-section {
+    height: 100vh;
+    size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top-heading , .bottom-heading {
+    display: inline-block;
+    background-color: rgba(0, 188, 203, 0.7);
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-section {
+        height: 100vh;
+    }
+
+    .hero-content {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 10pt;
+    }
+
+    .top-heading {
+        padding: 0px 10px;
+    }
+    
+    .bottom-heading {
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+}

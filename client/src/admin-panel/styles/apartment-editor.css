@@ -1,0 +1,30 @@
+.apartment-editor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.apartment-editor > .apartments {
+    display: flex;
+    flex-flow: column;
+}
+
+.apartment-editor > .apartments > .description-fields {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.apartment-editor > .apartments > .description-fields > .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+}
+
+.apartment-editor > .apartments > .apartment {
+    display: flex;
+    height: 100px;
+    flex-flow: row;
+}

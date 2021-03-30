@@ -1,0 +1,67 @@
+.apartment-search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+.apartment-search-section > .title {
+    -webkit-filter: drop-shadow(5px 5px 2px #10123c);
+    filter: drop-shadow(5px 5px 2px #10123c);
+}
+
+.apartment-search-section > .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartment-search-section > .gallery > .arrow i {
+    font-size: 80pt; 
+    color: rgba(0, 188, 203, 0.7);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
+    -webkit-filter: drop-shadow(2px 2px 2px #10123c);
+    filter: drop-shadow(2px 2px 2px #10123c);
+}
+
+.apartment-search-section > .gallery > .right {
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.apartment-search-section > .gallery > .left {
+    margin-right:20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .apartment-search-section {
+        height: 98vh;
+        justify-content: center;
+    }
+
+    .apartment-search-section > .title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 17pt;
+    }
+
+    .apartment-search-section > .title h1 {
+        font-size: 17pt;
+    }
+
+    .apartment-search-section > .gallery > .arrow i {
+        font-size: 50pt;
+    }
+
+    .apartment-search-section > .gallery > .right {
+        margin-left:10px;
+    }
+    
+    .apartment-search-section > .gallery > .left {
+        margin-right:10px;
+    }
+}

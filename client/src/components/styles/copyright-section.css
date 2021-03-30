@@ -1,0 +1,10 @@
+.copyright-section {
+    height: 30px;
+    background-color: rgba(0, 188, 203, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Comfortaa', sans-serif;
+}

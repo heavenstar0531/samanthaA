@@ -1,0 +1,23 @@
+.apartment-filter {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.apartment-filter > .filter-form {
+    height: 200px;
+    padding: 10px;
+    background-color: rgba(0, 188, 203, 1);
+}
+
+.apartment-filter > .show-hide {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25pt;
+    background-color: rgba(0, 188, 203, 0.7);
+}
